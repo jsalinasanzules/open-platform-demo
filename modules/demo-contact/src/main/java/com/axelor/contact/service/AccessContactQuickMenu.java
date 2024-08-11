@@ -40,7 +40,7 @@ public class AccessContactQuickMenu implements QuickMenuCreator {
     }
 
     QuickMenu menu = createAccessQuickMenu();
-    menu.getItems().add(new QuickMenuItem(I18n.get("Contacts"), "contact.all"));
+    //menu.getItems().add(new QuickMenuItem(I18n.get("Contacts"), "contact.all"));
 
     return menu;
   }
