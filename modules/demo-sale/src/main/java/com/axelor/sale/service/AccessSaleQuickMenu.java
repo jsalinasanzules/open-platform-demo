@@ -49,14 +49,14 @@ public class AccessSaleQuickMenu extends AccessContactQuickMenu {
       menu = createAccessQuickMenu();
     }
 
-    /*menu.setItems(
+    menu.setItems(
         Stream.of(
                 menu.getItems(),
                 List.of(
                     new QuickMenuItem(I18n.get("Quotations"), "sale.orders.draft"),
                     new QuickMenuItem(I18n.get("Sale Orders"), "sale.orders")))
             .flatMap(Collection::stream)
-            .collect(Collectors.toList()));*/
+            .collect(Collectors.toList()));
 
     return menu;
   }

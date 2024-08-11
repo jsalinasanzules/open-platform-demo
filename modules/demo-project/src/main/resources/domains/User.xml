@@ -7,7 +7,6 @@
 
     <entity name="User">
         <many-to-one name="defaultProject" ref="com.axelor.project.db.Project" title="Project"/>
-        <string name="compania" />
     </entity>
 
 </domain-models>

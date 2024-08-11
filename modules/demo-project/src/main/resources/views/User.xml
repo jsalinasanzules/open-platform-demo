@@ -7,10 +7,8 @@
         <extend target="//panel[@title='Overview']">
             <insert position="inside">
                 <field name="defaultProject"/>
-                <field name="compania"/>
             </insert>
         </extend>
-
     </form>
 
 </object-views>
